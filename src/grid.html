@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAINWIND</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-indigo-50">
+
+  <h1 class="text-center text-3xl"> GRID</h1>
+  <code>grid grid-cols-3 gap-4</code>
+
+  <div class="grid grid-cols-3 gap-4">
+    <div class="border bg-gray-400">1</div>
+    <!-- ... -->
+    <div class="border  bg-gray-400">9</div>
+
+    <div class="border  bg-gray-400">9</div>
+
+  </div>
+
+
+  <br>
+  <code>flex flex-row</code>
+  <div class="flex flex-row">
+    <div class="border bg-gray-400">1</div>
+    <div class="border bg-gray-400">2</div>
+    <div class="border bg-gray-400">3</div>
+  </div>
+
+  <br>
+  <code>flex-col</code>
+  <div class="flex flex-col ...">
+    <div class="border bg-gray-400">1</div>
+    <div class="border bg-gray-400">2</div>
+    <div class="border bg-gray-400">3</div>
+  </div>
+
+  <br>
+  <code>flex flex-col md:flex-row</code>
+  <div class="flex flex-col md:flex-row ">
+    <div class="border bg-gray-400"> 1 </div>
+    <div class="border bg-gray-400"> 2 </div>
+    <div class="border bg-gray-400"> 3 </div>
+  </div>
+
+  <br>
+  <code>flex</code>
+  <div class="flex ">
+    <div class="flex-none w-16 h-16 border bg-gray-400">
+      flex-none
+    </div>
+    <div class="flex-grow h-16 border bg-gray-400">
+      flex flex-grow
+    </div>
+    <div class="flex-none w-16 h-16 border bg-gray-400">
+      flex-none
+    </div>
+  </div>
+
+  <br>
+
+  <div class="flex ">
+    <div class="flex-grow md:flex-grow-0 border h-20 bg-gray-400">
+      lex-grow-0
+    </div>
+    <div class="flex-grow-0 border bg-gray-400">
+      lex-grow-0
+    </div>
+    <div class="flex-grow-0  border bg-gray-400">
+      flex-grow-0
+    </div>
+  </div>
+
+  <h1 class="text-center text-3xl"> FLEX</h1>
+
+  <div class="flex flex-row">
+    <div class="flex-grow">start</div>
+    <div class="flex-grow text-center">center</div>
+    <div class="flex-grow text-right">end</div>
+  </div>
+
+  <div class="flex justify-start ...">
+    <div class="bg-gray-400">1</div>
+    <div class="bg-gray-400">2</div>
+    <div class="bg-gray-400">3</div>
+  </div>
+
+  <div class="flex justify-center ...">
+    <div class="bg-gray-400">1</div>
+    <div class="bg-gray-400">2</div>
+    <div class="bg-gray-400">3</div>
+  </div>
+
+  
+  <div class="flex justify-end ">
+    <div class="bg-gray-400">1</div>
+    <div class="bg-gray-400">2</div>
+    <div class="bg-gray-400">3</div>
+  </div>
+
+
+  <h1 class="text-center text-3xl"> GRID FLEX</h1>
+
+<div class="grid justify-items-start md:justify-items-center">
+ <div>grid justify-items-start md:justify-items-center</div>
+</div>
+
+
+<code>grid grid-flow-col auto-cols-max</code>
+<div class="grid grid-flow-col auto-cols-max gap-3">
+  <div class="bg-gray-400">1</div>
+  <div class="bg-gray-400">2</div>
+  <div class="bg-gray-400">3</div>
+</div>
+
+
+<code>grid grid-flow-col auto-cols-auto</code>
+<div class="grid grid-flow-col auto-cols-auto gap-3">
+  <div class="bg-gray-400">1</div>
+  <div class="bg-gray-400">2</div>
+  <div class="bg-gray-400">3</div>
+</div>
+
+<br>
+<code>grid grid-flow-col auto-cols-auto md:auto-cols-min</code>
+<div class="grid grid-flow-col auto-cols-max lg:auto-cols-auto md:auto-cols-min sm:auto-cols-auto gap-2">
+  <div  class="bg-gray-400">1</div>
+  <div  class="bg-gray-400">2</div>
+  <div  class="bg-gray-400">3</div>
+</div>
+
+
+
+<br>
+
+
+<div class="grid grid-flow-row auto-rows-max">
+  <div class="teste">1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+
+
+</body>
+
+</html>
